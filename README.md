@@ -1,2 +1,2 @@
 # Etch-A-Sketch
-Create a pretty neat toy!
+Creating a pretty neat toy!
