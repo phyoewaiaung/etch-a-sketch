@@ -23,8 +23,8 @@ button:hover {
   /* border: none; */
   outline: 1px solid #000;
   display: inline-block;
-  /* opacity: 0.1;
-  background-color: black; */
+  opacity: 0.1;
+  background-color: blue;
 }
 .center {
   text-align: center;

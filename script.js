@@ -24,9 +24,7 @@ mouseover();
 function mouseover() {
   var hover = document.querySelectorAll('.gridSquare');
   hover.forEach((gridSquare) => {
-    gridSquare.addEventListener('mouseover', (e) => {
-      e.target.style.background = 'blue';
-    });
+    gridSquare.addEventListener('mouseover', colorIn);
   });
 }
 var btn = document.querySelector('.btn');
@@ -43,3 +41,10 @@ btn.addEventListener('click', () => {
     mouseover();
   }
 });
+
+/*** Function that add opactiy to each pass */
+function colorIn() {
+  let currentOpacity = +this.style.opacity;
+  if (currentOpacity < 1) currentOpacity += 0.1;
+  this.style.opacity = currentOpacity;
+}
