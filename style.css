@@ -1,6 +1,6 @@
 .container {
   text-align: center;
-  outline: 2px solid #000;
+  outline: 1px solid #000;
   font-size: 0;
   margin: auto;
   height: 960px;
@@ -20,8 +20,7 @@ button:hover {
 }
 
 .gridSquare {
-  /* border: none; */
-  outline: 1px solid #000;
+  outline: 2px solid #000;
   display: inline-block;
   opacity: 0.1;
   background-color: blue;
